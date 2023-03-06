@@ -1,0 +1,312 @@
+{
+	"courses": [
+		{
+			"type": "FullCourse",
+			"strategy": "BestPartialScore",
+			"name": "Programare Orientata pe Obiecte",
+			"teacher": {
+				"firstName": "Carmen",
+				"lastName": "Odubasteanu"
+			},
+			"assistants": [
+				{
+					"firstName": "Mihai",
+					"lastName": "Nan"
+				},
+				{
+					"firstName": "Sara",
+					"lastName": "Nucuta"
+				}
+			],
+			"groups": [
+				{
+					"ID": "321CC",
+					"assistant": {
+						"firstName": "Sara",
+						"lastName": "Nucuta"
+					},
+					"students": [
+						{
+							"firstName": "Marian",
+							"lastName": "Andrei",
+							"mother": {
+								"firstName": "Simona",
+								"lastName": "Andrei"
+							},
+							"father": {
+								"firstName": "Ionel",
+								"lastName": "Andrei"
+							}
+						},
+						{
+							"firstName": "Andra",
+							"lastName": "Ionescu",
+							"mother": {
+								"firstName": "Carmen",
+								"lastName": "Ionescu"
+							},
+							"father": {
+								"firstName": "Adrian",
+								"lastName": "Ionescu"
+							}
+						}
+
+					]
+				},
+				{
+					"ID": "322CC",
+					"assistant": {
+						"firstName": "Mihai",
+						"lastName": "Nan"
+					},
+					"students": [
+						{
+							"firstName": "David",
+							"lastName": "Grigore",
+							"mother": {
+								"firstName": "Ioana",
+								"lastName": "Grigore"
+							},
+							"father": {
+								"firstName": "Andrei",
+								"lastName": "Grigore"
+							}
+						},
+						{
+							"firstName": "Gabi",
+							"lastName": "Popescu",
+							"mother": {
+								"firstName": "Andreea",
+								"lastName": "Popescu"
+							},
+							"father": {
+								"firstName": "Lucian",
+								"lastName": "Popescu"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sisteme de operare",
+			"type": "FullCourse",
+			"strategy": "BestExamScore",
+			"teacher": {
+				"firstName": "Razvan",
+				"lastName": "Deaconescu"
+			},
+			"assistants": [
+				{
+					"firstName": "Adrian",
+					"lastName": "Lutan"
+				},
+				{
+					"firstName": "Eduard",
+					"lastName": "Staniloiu"
+				}
+			],
+			"groups": [
+				{
+					"ID": "321CC",
+					"assistant": {
+						"firstName": "Eduard",
+						"lastName": "Staniloiu"
+					},
+					"students": [
+						{
+							"firstName": "Marian",
+							"lastName": "Andrei",
+							"mother": {
+								"firstName": "Simona",
+								"lastName": "Andrei"
+							},
+							"father": {
+								"firstName": "Ionel",
+								"lastName": "Andrei"
+							}
+						},
+						{
+							"firstName": "Andra",
+							"lastName": "Ionescu",
+							"mother": {
+								"firstName": "Carmen",
+								"lastName": "Ionescu"
+							},
+							"father": {
+								"firstName": "Adrian",
+								"lastName": "Ionescu"
+							}
+						}
+
+					]
+				},
+				{
+					"ID": "322CC",
+					"assistant": {
+						"firstName": "Adrian",
+						"lastName": "Lutan"
+					},
+					"students": [
+						{
+							"firstName": "David",
+							"lastName": "Grigore",
+							"mother": {
+								"firstName": "Ioana",
+								"lastName": "Grigore"
+							},
+							"father": {
+								"firstName": "Andrei",
+								"lastName": "Grigore"
+							}
+						},
+						{
+							"firstName": "Gabi",
+							"lastName": "Popescu",
+							"mother": {
+								"firstName": "Andreea",
+								"lastName": "Popescu"
+							},
+							"father": {
+								"firstName": "Lucian",
+								"lastName": "Popescu"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"examScores": [
+		{
+			"student": {
+				"firstName": "Marian",
+				"lastName": "Andrei"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 2.35
+		},
+		{
+			"student": {
+				"firstName": "Andra",
+				"lastName": "Ionescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 1.2
+		},
+		{
+			"student": {
+				"firstName": "David",
+				"lastName": "Grigore"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 1.6
+		},
+		{
+			"student": {
+				"firstName": "Gabi",
+				"lastName": "Popescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 4.1
+		},
+		{
+			"student": {
+				"firstName": "Marian",
+				"lastName": "Andrei"
+			},
+			"course": "Sisteme de operare",
+			"grade": 2.35
+		},
+		{
+			"student": {
+				"firstName": "Andra",
+				"lastName": "Ionescu"
+			},
+			"course": "Sisteme de operare",
+			"grade": 1.2
+		},
+		{
+			"student": {
+				"firstName": "David",
+				"lastName": "Grigore"
+			},
+			"course": "Sisteme de operare",
+			"grade": 1.6
+		},
+		{
+			"student": {
+				"firstName": "Gabi",
+				"lastName": "Popescu"
+			},
+			"course": "Sisteme de operare",
+			"grade": 4.1
+		}
+	],
+	"partialScores": [
+		{
+			"student": {
+				"firstName": "Marian",
+				"lastName": "Andrei"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 3.4
+		},
+		{
+			"student": {
+				"firstName": "Andra",
+				"lastName": "Ionescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 2.75
+		},
+		{
+			"student": {
+				"firstName": "David",
+				"lastName": "Grigore"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 3.5
+		},
+		{
+			"student": {
+				"firstName": "Gabi",
+				"lastName": "Popescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 4.85
+		},
+		{
+			"student": {
+				"firstName": "Marian",
+				"lastName": "Andrei"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 3.4
+		},
+		{
+			"student": {
+				"firstName": "Andra",
+				"lastName": "Ionescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 2.75
+		},
+		{
+			"student": {
+				"firstName": "David",
+				"lastName": "Grigore"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 3.5
+		},
+		{
+			"student": {
+				"firstName": "Gabi",
+				"lastName": "Popescu"
+			},
+			"course": "Programare Orientata pe Obiecte",
+			"grade": 4.85
+		}
+	]
+}
